@@ -5,9 +5,9 @@ class Formatter {
   }
   
   static sanitize(str) {
-    return str.replace(/$@#]/gi, '');
+    return str.replace(/$@#!*({^]/gi, '');
   }
-  
+
   static titleize(str) {
     var words = str.split(' ');
 
