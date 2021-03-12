@@ -18,29 +18,29 @@ class Formatter {
       }
     
       
-      switch(words[i]){
-        case 'a':
-          break;
-        case 'an':
-          break;
-        case 'but':
-          break;
-        case 'of':
-          break;
-        case 'and':
-          break;
-        case 'for':
-          break;
-        case 'at':
-          break;
-        case 'by':
-          break;
-        case 'from':
-          break;
-        default:
-          this.capitalize(words[i]);
-          break;
-      }
+      // switch(words[i]){
+      //   case 'a':
+      //     break;
+      //   case 'an':
+      //     break;
+      //   case 'but':
+      //     break;
+      //   case 'of':
+      //     break;
+      //   case 'and':
+      //     break;
+      //   case 'for':
+      //     break;
+      //   case 'at':
+      //     break;
+      //   case 'by':
+      //     break;
+      //   case 'from':
+      //     break;
+      //   default:
+      //     this.capitalize(words[i]);
+      //     break;
+      // }
     
     }
     return words.join(' ');
