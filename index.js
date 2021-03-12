@@ -13,7 +13,7 @@ class Formatter {
 
     for (let i = 0; i < words.length; i++) {
       if (i === 0) {
-        self.capitalize(words[i]);
+        this.capitalize(words[i]);
       }
     }
       
