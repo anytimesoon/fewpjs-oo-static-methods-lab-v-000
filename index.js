@@ -5,7 +5,7 @@ class Formatter {
   }
   
   static sanitize(str) {
-    return str.replace(/[]/gi, '');
+    return str.replace(/[a-z A-Z 0-9]/gi, '');
   }
   
   static titleize(str) {
