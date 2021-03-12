@@ -15,7 +15,7 @@ class Formatter {
       if (i === 0) {
         this.capitalize(words[i]);
       }
-    }
+    
       
       switch(words[i]){
         case 'a':
@@ -41,7 +41,7 @@ class Formatter {
           break;
       }
     
-    
+    }
     return words.join(' ');
   }
   
