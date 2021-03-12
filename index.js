@@ -11,6 +11,13 @@ class Formatter {
   static titleize(str) {
     var words = str.split(' ');
 
+    for (let i = 0; i < words.length; i++) {
+      if (i === 0) {
+        words[i].capitalize(words[i])
+      }
+      
+      
+    }
     
     $.each(words, function(index, word){
         words[index] = word.charAt(0).toUpperCase() + word.slice(1);
@@ -18,4 +25,8 @@ class Formatter {
     
     return str
   }
+}
+
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
 }
