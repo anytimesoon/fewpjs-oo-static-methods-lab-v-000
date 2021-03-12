@@ -2,7 +2,7 @@ class Formatter {
   //add static methods here
   static capitalize(str) {
     str = str.charAt(0).toUpperCase() + str.slice(1)
-    console.log('str');
+    console.log(str);
     return str;
     
   }
