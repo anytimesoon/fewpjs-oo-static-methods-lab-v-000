@@ -42,7 +42,7 @@ class Formatter {
         case 'from':
           break;
         default:
-          this.capitalize(words[i]);
+          words[i] = this.capitalize(words[i]);
           break;
       }
     
