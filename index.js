@@ -45,7 +45,3 @@ class Formatter {
     return words.join(' ');
   
 }
-
-for (i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
-}
