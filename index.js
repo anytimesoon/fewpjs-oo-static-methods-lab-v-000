@@ -11,7 +11,7 @@ class Formatter {
   static titleize(str) {
     var words = str.split(' ');
 
-    for words
+    
     $.each(words, function(index, word){
         words[index] = word.charAt(0).toUpperCase() + word.slice(1);
     });
