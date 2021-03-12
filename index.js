@@ -17,7 +17,9 @@ class Formatter {
       }
       
       switch(words[i]){
-        case 'a'
+        case 'a':
+          return
+          
       }
     }
     
