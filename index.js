@@ -9,7 +9,8 @@ class Formatter {
   }
 
   static titleize(str) {
-    var words = str.split(' ');
+    var sanitized = this.sanitize(str)
+    var words = sanitized.split(' ');
 
     for (let i = 0; i < words.length; i++) {
       if (i === 0) {
