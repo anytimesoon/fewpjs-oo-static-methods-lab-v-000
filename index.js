@@ -39,6 +39,8 @@ class Formatter {
           break;
         case 'by':
           break;
+        case 'the':
+          break;
         case 'from':
           break;
         default:
