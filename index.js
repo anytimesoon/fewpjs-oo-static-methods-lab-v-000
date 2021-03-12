@@ -16,7 +16,7 @@ class Formatter {
         words[i].capitalize(words[i])
       }
       
-      
+      switch
     }
     
     $.each(words, function(index, word){
