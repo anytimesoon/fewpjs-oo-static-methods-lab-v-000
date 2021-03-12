@@ -13,7 +13,7 @@ class Formatter {
 
     for (let i = 0; i < words.length; i++) {
       if (i === 0) {
-        words[i].capitalize(words[i])
+        self.capitalize(words[i])
       }
       
       switch(words[i]){
@@ -35,8 +35,9 @@ class Formatter {
           break;
         case 'from':
           break;
-        
-          
+        default:
+          self.capitalize(words[i]);
+          break;
       }
     }
     
