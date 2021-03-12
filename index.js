@@ -1,11 +1,11 @@
 class Formatter {
   //add static methods here
   static capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1)
+    return str.charAt(0).toUpperCase() + str.slice(1);
   }
   
   static sanitize(str) {
-    return str
+    return str;
   }
   
   static titleize(str) {
@@ -13,7 +13,7 @@ class Formatter {
 
     for (let i = 0; i < words.length; i++) {
       if (i === 0) {
-        self.capitalize(words[i])
+        self.capitalize(words[i]);
       }
       
       switch(words[i]){
@@ -41,11 +41,7 @@ class Formatter {
       }
     }
     
-    $.each(words, function(index, word){
-        words[index] = word.charAt(0).toUpperCase() + word.slice(1);
-    });
-    
-    return str
+    return words.join(' ');
   }
 }
 
